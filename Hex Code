@@ -1,0 +1,53 @@
+Version 6.31 build 9
+Tìm 03 00 00 00 8B 4D F4 64 89 0D 00 00 00 00 5F 5E 5B 8B E5 5D C3 A1 thay 03 thành 00
+Tìm 85 06 02 00 00 A1 Thay 85 06 thành 84 73
+Tìm 87 DD 0C 00 00 0F 84 thay 87 thành 86
+Tìm tất cả (nhấn F3 để tìm cho nhanh) 87 F9 thay 87 thành 86
+
+Version 6.32 build 11
+Tìm 03 00 00 00 8B 4D F4 64 89 0D 00 00 00 00 5F 5E 5B 8B E5 5D C3 A1 thay 03 thành 00
+Tìm 85 06 02 00 00 A1 Thay 85 06 thành 84 73
+Tìm 14 00 00 0F 87 -> 14 00 00 0F 86
+
+Version 6.33 build 1
+Tìm 03 00 00 00 8B 4D F4 64 89 0D 00 00 00 00 5F 5E 5B 8B E5 5D C3 A1 thay 03 thành 00
+Tìm 85 06 02 00 00 A1 Thay 85 06 thành 84 73
+Tìm 14 00 00 0F 87 54 -> 14 00 00 0F 86 54
+(Lưu ý: Mã 14 00 00 0F 87 rất nhiều nên bạn cần tìm đúng mã trên để sửa lại)
+
+Version 6.33 build 2
+Tìm 03 00 00 00 8B 4D F4 64 89 0D 00 00 00 00 5F 5E 5B 8B E5 5D C3 A1 thay 03 thành 00
+Tìm 85 06 02 00 00 A1 Thay 85 06 thành 84 73
+Tìm 14 00 00 0F 87 54 -> 14 00 00 0F 86 54
+hoặc tìm 14 00 00 0F 87 94 -> 14 00 00 0F 86 94 với bản IDM mới nhất được tải xuống từ trang chủ IDM, cũng với version như vậy, nhưng IDM đã thay đổi mã Hex.
+(Lưu ý: Mã 14 00 00 0F 87 rất nhiều nên bạn cần tìm đúng mã trên để sửa lại)
+
+Version 6.33 build 3
+Các bạn sửa 2 dòng đầu như phiên bản version 6.33 build 2, dòng thứ 3 tìm và sửa như sau:
+Tìm 14 00 00 0F 87 B3 -> 14 00 00 0F 86 B3
+
+Version 6.35 build 1
+Các bạn sửa dòng đầu như phiên bản version 6.33 build 2, hai dòng sau tìm và sửa như sau:
+Tìm EB 04 85 C0 74 6D Thay 04 thành 71
+Tìm 14 00 00 0F 87 7C -> 14 00 00 0F 86 7C
+
+Version 6.35 build 2, build 3, build 5
+Các bạn sửa lại mã Hex giống như bản 6.35 build 1. Từ nay trở đi, khi IDM cập nhật lên phiên bản mới, nếu 3 dòng mã Hex cần sửa ở trên có thay đổi mình sẽ cập nhật tại đây.
+
+Version 6.35 build 8
+Tìm 03 00 00 00 8B 4D F4 64 89 0D 00 00 00 00 5F thay 03 thành 00
+Tìm EB 04 85 C0 74 6D Thay 04 thành 71
+Tìm 14 00 00 0F 87 8B -> Thay 87 thành 86
+
+Version 6.35 build 9
+Tìm 03 00 00 00 8B 4D F4 64 89 0D 00 00 00 00 5F thay 03 thành 00
+Tìm EB 04 85 C0 74 6D Thay 04 thành 71
+Tìm 14 00 00 0F 87 87 -> Thay 87 thành 86 (14 00 00 0F 86 87)
+
+Version 6.35 build 11
+Phiên bản này các bạn sửa lại mã Hex giống như phiên bản Version 6.35 build 9 nhé!
+
+Version 6.35 build 12
+Tìm 03 00 00 00 8B 4D F4 64 89 0D 00 00 00 00 5F thay 03 thành 00
+Tìm EB 04 85 C0 74 6D Thay 04 thành 71
+Tìm 14 00 00 0F 87 7F -> Thay 87 thành 86 (14 00 00 0F 86 7F)
